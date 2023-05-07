@@ -5,12 +5,6 @@ app = Flask(__name__)
 app.secret_key = "smakonakl0ioe8390732890dshui"
 db = pymysql.connect(host="localhost",user="root",password="",database="curso")
 
-
-
-
-
-
-
 @app.route("/deletar", methods=['GET','POST'])
 def deletar():
         cursor = db.cursor()
