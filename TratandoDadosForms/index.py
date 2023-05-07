@@ -15,7 +15,6 @@ def sobre():
     #returnando o hello_world
     return "<h2>sobre</h2>"
 
-
 @app.route("/noticia/<slug>")
 def noticia(slug):
     return "Noticia: " + slug
