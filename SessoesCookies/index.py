@@ -21,7 +21,7 @@ def html():
                 return session['usuario'] """
         
         # COOKIES
-        #recuperando o COOKIES
+        #recuperando oS COOKIES
         if request.cookies.get('usuario'):
             resp = make_response("Meu website com cookie setado")
         else:
