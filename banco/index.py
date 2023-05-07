@@ -7,7 +7,7 @@ app.secret_key = "sortedd"
 db = pymysql.connect(host="localhost",user="root",password="",database="curso")
 
 @app.route("/",methods=['GET','POST'])
-def html():
+def htmll():
     if request.method == "GET":
        
         # COOKIES
