@@ -12,7 +12,7 @@ def html():
 
 @app.route("/sobre")
 def sobre():
-    #returnando o hello world
+    #returnando o hello_world
     return "<h2>sobre</h2>"
 
 
